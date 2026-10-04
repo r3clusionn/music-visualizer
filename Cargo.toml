@@ -1,0 +1,28 @@
+[package]
+name = "music-visualizer"
+version = "0.1.0"
+edition = "2021"
+description = "A real-time music visualizer: system audio, microphone or a file, analysed with an FFT into bands, beats and tempo, drawn by configurable effects."
+license = "MIT"
+
+[lib]
+name = "mviz"
+
+[[bin]]
+name = "mviz"
+path = "src/main.rs"
+
+[dependencies]
+adsp = { git = "https://github.com/r3clusionn/audio-dsp-library", rev = "627ae34" }
+lumen = { git = "https://github.com/r3clusionn/image-library", rev = "f8873bb" }
+clap = { version = "4", features = ["derive"] }
+cpal = "0.18"
+minifb = "0.29"
+serde = { version = "1", features = ["derive"] }
+symphonia = { version = "0.6", features = ["mp3", "aac", "isomp4", "flac", "vorbis", "ogg", "wav", "pcm"] }
+toml = "0.9"
+
+[profile.release]
+lto = true
+codegen-units = 1
+debug = false

@@ -5,7 +5,7 @@ version = 4
 [[package]]
 name = "adsp"
 version = "0.1.0"
-source = "git+https://github.com/r3clusionn/audio-dsp-library?rev=627ae34#627ae344677bb207c06ee131cec960642c140ed0"
+source = "git+https://github.com/r3clusionn/audio-dsp-library?rev=c3f051f#c3f051f539dddfd1f1a99b98b2473f3e8b76c60e"
 dependencies = [
  "clap",
 ]
@@ -569,7 +569,7 @@ checksum = "f9f8bd3e56ce4dfc153cf470fffbfa98c7620958b312ca5c3a4b8d5181fd13c6"
 [[package]]
 name = "lumen"
 version = "0.1.0"
-source = "git+https://github.com/r3clusionn/image-library?rev=f8873bb#f8873bb804f660c0d0d538b1f5b6a6e767a8840c"
+source = "git+https://github.com/r3clusionn/image-library?rev=ab11f5a#ab11f5a7276ec65695a96103ab2c736bdecda5aa"
 
 [[package]]
 name = "mach2"

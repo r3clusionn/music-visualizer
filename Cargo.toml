@@ -13,8 +13,8 @@ name = "mviz"
 path = "src/main.rs"
 
 [dependencies]
-adsp = { git = "https://github.com/r3clusionn/audio-dsp-library", rev = "627ae34" }
-lumen = { git = "https://github.com/r3clusionn/image-library", rev = "f8873bb" }
+adsp = { git = "https://github.com/r3clusionn/audio-dsp-library", rev = "c3f051f" }
+lumen = { git = "https://github.com/r3clusionn/image-library", rev = "ab11f5a" }
 clap = { version = "4", features = ["derive"] }
 cpal = "0.18"
 minifb = "0.29"
